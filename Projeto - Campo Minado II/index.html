@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="base">
+    <div id="00" value="" class="quadrado base"><h1></h1></div>
+</div>
+
+<div class="campo-total">
+    <div class="campo-header">
+        <form id="form" action="">
+            <div class="input-area">
+                <div class="qt-X">
+                    <label for="numberX">Linhas  </label>
+                    <input placeholder="15" type="number" name="numberX" id="linhasX">
+                </div>
+                <div class="qt-Y">
+                    <label for="numberY">Colunas</label>
+                    <input placeholder="15" type="number" name="numberY" id="linhasY">
+                </div>
+            </div>
+            
+            <div class="campo-header-cronometro">
+                <div class="campo-header-crono-cronometro">
+                    <h1>
+                        <samp class="time" id="minutos">00</samp> :
+                        <samp class="time" id="segundos">00</samp> :
+                        <samp class="time" id="milisegundos">000</samp>
+                    </h1>
+                </div>
+                <div class="campo-header-btn">
+                    <div id="btn-iniciar" class="header-btn">
+                        <img src="assets/img/toque.png" alt="" srcset="">
+                    </div>
+                    <button id="btn-recomecar" type="submit" class="header-btn">
+                        <img src="assets/img/recarregar.png" alt="" srcset="">
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="campo">
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</html>

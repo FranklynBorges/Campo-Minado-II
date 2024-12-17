@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+.campo-total{
+    margin: auto;
+    width: 550px;
+    
+    background-color: #ddd;
+    border: solid 2px #000;
+    /* box-shadow: 5px 5px 5px #777; */
+
+    padding: 10px;
+}
+.campo-header{
+    background-color: #ddd;
+    color: black;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.qt-X, .qt-Y{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+}
+input{
+    width: 45px;
+    height: 18px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ddd;
+    border-bottom: solid 2px black;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.campo-header-cronometro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    width: 100%;
+    margin-left: 40px;
+}
+.campo-header-crono-cronometro{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: #000 solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #ad6d6d;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.campo-header-btn{
+    display: flex;
+    gap: 5px;
+}
+.header-btn{
+    height: 35px;
+    width: 35px;
+    background-color: #ac9e9e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    border: solid #000 1px;
+    cursor: pointer;
+}
+.header-btn img{
+    height: 70%;
+}
+
+.campo{
+    margin: auto;
+    height: 500px;
+    width: 100%;
+    background-color: #555;
+    border: solid #555 2px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.row{
+    display: flex;
+    flex: 1;
+    gap: 2px;
+}
+.quadrado{
+    background-color: #ddd;
+    border: solid 2px #fff;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.quadrado h1{
+    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.base{
+    display: none;
+}
+.quadrado h1 {
+    font-size: 15px;
+}
+.quadrado img{
+    width: 80%;
+    height: 80%;
+}
